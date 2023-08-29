@@ -1,0 +1,34 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #788199;
+    padding: 10px 20px;
+}
+
+.navbar-title {
+    color: white;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links li a {
+    color: #d1d6e9;
+    text-decoration: none;
+}
+
+.navbar-links li a:hover {
+    color: black;
+}
